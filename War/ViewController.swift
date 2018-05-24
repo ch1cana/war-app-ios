@@ -28,8 +28,8 @@ class ViewController: UIViewController {
     @IBAction func dealTapped(sender: UIButton) {
       print("deal tapped")
         
-        leftimageView.image = UIImage(named: "card10")
-        rightimageView.image = UIImage(named: "jack")
+      leftimageView.image = UIImage(named: "card10")
+      rightimageView.image = UIImage(named: "jack")
     }
     
 }
