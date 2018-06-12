@@ -79,7 +79,7 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zVy-Ou-Ga4" userLabel="RightScoreLabelstackview">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zVy-Ou-Ga4" userLabel="RightScoreLabelStackview">
                                                 <rect key="frame" x="154" y="0.0" width="54" height="72"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CPU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wxe-FC-h0o">
@@ -88,7 +88,7 @@
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXJ-Cb-THq">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXJ-Cb-THq" userLabel="Right Score Label">
                                                         <rect key="frame" x="0.0" y="24" width="54" height="48"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -114,10 +114,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="LeftScoreLabel" destination="EU1-3n-7aL" id="2ZP-cy-gxw"/>
-                        <outlet property="RightScoreLabel" destination="aXJ-Cb-THq" id="sR8-Y5-Lic"/>
-                        <outlet property="leftimageView" destination="z5X-NX-EqL" id="47N-VH-Igs"/>
-                        <outlet property="rightimageView" destination="PGY-m0-0oa" id="hm9-FE-4T6"/>
+                        <outlet property="leftImageView" destination="z5X-NX-EqL" id="3BN-CY-yfl"/>
+                        <outlet property="leftScoreLabel" destination="EU1-3n-7aL" id="e6p-Bm-QO4"/>
+                        <outlet property="rightImageView" destination="PGY-m0-0oa" id="B3k-Zo-JQb"/>
+                        <outlet property="rightScoreLabel" destination="aXJ-Cb-THq" id="O5I-ZU-FON"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

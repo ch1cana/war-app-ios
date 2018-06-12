@@ -11,14 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var rightImageView: UIImageView!
+    
     @IBOutlet var rightScoreLabel: UILabel!
     var rightScore = 0
     
     @IBOutlet var leftImageView: UIImageView!
+    
     @IBOutlet var leftScoreLabel: UILabel!
     var leftScore = 0
-    
-    
     
     let cardNames = ["card2", "card3", "card4", "card5", "card6", "card7", "card8", "card9", "card10", "jack", "queen", "king", "ace"]
     
